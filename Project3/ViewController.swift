@@ -17,7 +17,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     var data = [
         
      //   video(image: "videoShot1", title: "Introduce 3DS Mario", source: "Youtube - 06:32"),
-        video(image: "videoShot2", title: "Emoji Among Us", source: "Vimeo - 3:34"),
+        //video(image: "videoShot2", title: "Emoji Among Us", source: "Vimeo - 3:34"),
         video(image: "videoShot3", title: "Seals Documentary", source: "Vine - 00:06"),
         video(image: "videoShot4", title: "Adventure Time", source: "Youtube - 02:39"),
         video(image: "videoShot5", title: "Facebook HQ", source: "Facebook - 10:20"),
