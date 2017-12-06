@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4E94F5931D2C968800C4DCB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F5921D2C968800C4DCB3 /* AppDelegate.swift */; };
-		4E94F5951D2C968800C4DCB3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F5941D2C968800C4DCB3 /* MasterViewController.swift */; };
-		4E94F5971D2C968800C4DCB3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F5961D2C968800C4DCB3 /* DetailViewController.swift */; };
 		4E94F59A1D2C968800C4DCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E94F5981D2C968800C4DCB3 /* Main.storyboard */; };
 		4E94F59C1D2C968800C4DCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E94F59B1D2C968800C4DCB3 /* Assets.xcassets */; };
 		4E94F59F1D2C968800C4DCB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E94F59D1D2C968800C4DCB3 /* LaunchScreen.storyboard */; };
 		4E94F5AA1D2C968800C4DCB3 /* Project3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F5A91D2C968800C4DCB3 /* Project3Tests.swift */; };
 		4E94F5B51D2C968800C4DCB3 /* Project3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F5B41D2C968800C4DCB3 /* Project3UITests.swift */; };
+		4E94F5C31D2C98EB00C4DCB3 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4E94F5C21D2C98EB00C4DCB3 /* emoji zone.mp4 */; };
+		4E94F5C61D2C99E500C4DCB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F5C51D2C99E500C4DCB3 /* ViewController.swift */; };
+		4E94F5C81D2C9A7B00C4DCB3 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F5C71D2C9A7B00C4DCB3 /* VideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		4E94F58F1D2C968800C4DCB3 /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E94F5921D2C968800C4DCB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E94F5941D2C968800C4DCB3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		4E94F5961D2C968800C4DCB3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4E94F5991D2C968800C4DCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E94F59B1D2C968800C4DCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E94F59E1D2C968800C4DCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		4E94F5B01D2C968800C4DCB3 /* Project3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E94F5B41D2C968800C4DCB3 /* Project3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3UITests.swift; sourceTree = "<group>"; };
 		4E94F5B61D2C968800C4DCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E94F5C21D2C98EB00C4DCB3 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		4E94F5C51D2C99E500C4DCB3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E94F5C71D2C9A7B00C4DCB3 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				4E94F5921D2C968800C4DCB3 /* AppDelegate.swift */,
-				4E94F5941D2C968800C4DCB3 /* MasterViewController.swift */,
-				4E94F5961D2C968800C4DCB3 /* DetailViewController.swift */,
+				4E94F5C51D2C99E500C4DCB3 /* ViewController.swift */,
+				4E94F5C71D2C9A7B00C4DCB3 /* VideoCell.swift */,
+				4E94F5C41D2C98F100C4DCB3 /* video */,
 				4E94F5981D2C968800C4DCB3 /* Main.storyboard */,
 				4E94F59B1D2C968800C4DCB3 /* Assets.xcassets */,
 				4E94F59D1D2C968800C4DCB3 /* LaunchScreen.storyboard */,
@@ -126,6 +129,14 @@
 				4E94F5B61D2C968800C4DCB3 /* Info.plist */,
 			);
 			path = Project3UITests;
+			sourceTree = "<group>";
+		};
+		4E94F5C41D2C98F100C4DCB3 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				4E94F5C21D2C98EB00C4DCB3 /* emoji zone.mp4 */,
+			);
+			name = video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,13 +207,16 @@
 				TargetAttributes = {
 					4E94F58E1D2C968800C4DCB3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					4E94F5A41D2C968800C4DCB3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 4E94F58E1D2C968800C4DCB3;
 					};
 					4E94F5AF1D2C968800C4DCB3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 4E94F58E1D2C968800C4DCB3;
 					};
 				};
@@ -233,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E94F59F1D2C968800C4DCB3 /* LaunchScreen.storyboard in Resources */,
+				4E94F5C31D2C98EB00C4DCB3 /* emoji zone.mp4 in Resources */,
 				4E94F59C1D2C968800C4DCB3 /* Assets.xcassets in Resources */,
 				4E94F59A1D2C968800C4DCB3 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E94F5971D2C968800C4DCB3 /* DetailViewController.swift in Sources */,
-				4E94F5951D2C968800C4DCB3 /* MasterViewController.swift in Sources */,
+				4E94F5C61D2C99E500C4DCB3 /* ViewController.swift in Sources */,
 				4E94F5931D2C968800C4DCB3 /* AppDelegate.swift in Sources */,
+				4E94F5C81D2C9A7B00C4DCB3 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.Project3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.Project3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.Project3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project3.app/Project3";
 			};
 			name = Debug;
@@ -443,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.Project3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project3.app/Project3";
 			};
 			name = Release;
@@ -454,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.Project3UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Project3;
 			};
 			name = Debug;
@@ -465,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.Project3UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Project3;
 			};
 			name = Release;
@@ -488,6 +509,7 @@
 				4E94F5BB1D2C968800C4DCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E94F5BC1D2C968800C4DCB3 /* Build configuration list for PBXNativeTarget "Project3Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +518,7 @@
 				4E94F5BE1D2C968800C4DCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E94F5BF1D2C968800C4DCB3 /* Build configuration list for PBXNativeTarget "Project3UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +527,7 @@
 				4E94F5C11D2C968800C4DCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
